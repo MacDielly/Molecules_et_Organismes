@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/cerulean/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>La prez</title>
+</head>
+<body>
+<!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <!-- banner -->
+  <div class="jumbotron text-white jumbotron-image shadow" style="background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20200914000601/gfg-300x200.jpg);">
+    <h2 class="mb-4">Jumbotron with background image</h2>
+    <p class="mb-4">Hey, check this out.</p>
+    <a class="btn btn-primary">Click!</a>
+  </div>
+  <br>
+  <!-- cards -->
+  <div class="container colors">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+      <div class="col col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="75" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <rect x="0" y="0" width="50" height="100" fill="#FC6E51" />
+              <rect x="50" y="0" width="50" height="100" fill="#E9573F" />
+            </svg>
+            <div class="card-body">
+              <h5 class="card-title">Orange</h5>
+              <p class="card-text">#FC6E51, #E9573F</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="75" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <rect x="0" y="0" width="50" height="100" fill="#656D78" />
+              <rect x="50" y="0" width="50" height="100" fill="#434A54" />
+            </svg>
+            <div class="card-body">
+              <h5 class="card-title">Gris foncé</h5>
+              <p class="card-text">#656D78, #434A54</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="75" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <rect x="0" y="0" width="50" height="100" fill="#F5F7FA" />
+              <rect x="50" y="0" width="50" height="100" fill="#E6E9ED" />
+            </svg>
+            <div class="card-body">
+              <h5 class="card-title">Gris clair</h5>
+              <p class="card-text">#F5F7FA, #E6E9ED</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- list_cards -->
+  <div class="d-flex">
+    <div class="overflow-auto" style="height: 400px">
+      <div class="card m-2" style="max-width: 540px;">
+          <div class="row g-0">
+              <div class="col-md-4">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <p class="card-text">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card m-2" style="max-width: 540px;">
+          <div class="row g-0">
+              <div class="col-md-4">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <p class="card-text">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card m-2" style="max-width: 540px;">
+          <div class="row g-0">
+              <div class="col-md-4">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" class="img-fluid rounded-start" />
+              </div>
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <p class="card-text">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- list -->
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item list-group-item-action disabled">Morbi leo risus</a>
+  </div>
+  <br>
+  <!-- comments -->
+  <div class="card mb-3">
+    <h3 class="card-header">Auteur</h3>
+    <div class="card-body">
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <rect width="100%" height="100%" fill="#868e96"></rect>
+      <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+    </svg>
+    <div class="card-body">
+      <p class="card-text">Contenu (le super texte qui va avec l'image, qui ne sert a rien mais qu'on doit commenter)</p>
+    </div>
+    <div class="form-group">
+      <label for="exampleTextarea">Oui?</label>
+      <textarea class="form-control" id="exampleTextarea" rows="3">Ah, le commentaire! Bah, si t'as pas d'inspiration, en voici un.</textarea>
+    </div>
+    <div class="card-body">
+      <a href="#" class="card-link">Et là, si tu clique, ça commente. Enfin non; mais ça pourrait!</a>
+    </div>
+    <div class="card-footer text-muted">
+      (date et heure de post du commentaire, ex:) 2 days ago
+    </div>
+  </div>
+  <br>
+  <!-- authentification_form -->
+  <div class="form-group has-success">
+    <label class="form-label" for="inputValid">Valid input</label>
+    <input type="text" value="correct value" class="form-control is-valid" id="inputValid">
+    <div class="valid-feedback">Success! You've done it.</div>
+  </div>
+  <div class="form-group has-danger">
+    <label class="form-label" for="inputInvalid">Invalid input</label>
+    <input type="text" value="wrong value" class="form-control is-invalid" id="inputInvalid">
+    <div class="invalid-feedback">Sorry, that username's taken. Try another?</div>
+  </div>
+  <div class="form-group">
+    <label class="col-form-label col-form-label-lg" for="inputLarge">Large input</label>
+    <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="inputLarge">
+  </div>
+  <div class="form-group">
+    <label class="col-form-label" for="inputDefault">Default input</label>
+    <input type="text" class="form-control" placeholder="Default input" id="inputDefault">
+  </div>
+  <div class="form-group">
+    <label class="form-label mt-4">Floating labels</label>
+    <div class="form-floating mb-3">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+  </div>
+  <br>
+  <!-- footer -->
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer text</h5>
+  
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer text</h5>
+  
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <br>
+  <a href="index.html">index.html</a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
